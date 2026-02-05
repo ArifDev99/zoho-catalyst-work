@@ -10,7 +10,7 @@
   display: flex;
   position: fixed;
   align-items: center;
-  background: rgb(5, 150, 105);
+  background: #1f2931;
 }
 .create-container {
   z-index: 1;
@@ -63,7 +63,7 @@
   border: 1px solid #e0e0e0;
 }
 .input:focus {
-  border: 1px solid rgb(5, 150, 105);
+  border: 1px solid #111111;
   box-shadow: 0px 0px 1px 1px rgb(5, 150, 105);
 }
 .input::-moz-placeholder {
@@ -144,7 +144,7 @@
   animation: spin 0.8s linear infinite;
 }
 .btn--primary:disabled {
-  background: rgba(5, 150, 105, 0.7);
+  background: #1f2931;
 }
 @keyframes spin {
   from {
